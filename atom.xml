@@ -3,11 +3,11 @@
   <title>Welcome to my blog!</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://overrideturing.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://overrideturing.github.io/"/>
   <updated>2024-11-03T17:41:53.370Z</updated>
-  <id>http://example.com/</id>
+  <id>https://overrideturing.github.io/</id>
   
   <author>
     <name>OverrideTuring</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Diffusion发展脉络</title>
-    <link href="http://example.com/2024/11/04/diffusion%E5%8F%91%E5%B1%95%E8%84%89%E7%BB%9C/"/>
-    <id>http://example.com/2024/11/04/diffusion%E5%8F%91%E5%B1%95%E8%84%89%E7%BB%9C/</id>
+    <link href="https://overrideturing.github.io/2024/11/04/diffusion%E5%8F%91%E5%B1%95%E8%84%89%E7%BB%9C/"/>
+    <id>https://overrideturing.github.io/2024/11/04/diffusion%E5%8F%91%E5%B1%95%E8%84%89%E7%BB%9C/</id>
     <published>2024-11-03T17:36:48.000Z</published>
     <updated>2024-11-03T17:41:53.370Z</updated>
     
@@ -34,14 +34,14 @@
     
     
     
-    <category term="diffusion" scheme="http://example.com/tags/diffusion/"/>
+    <category term="diffusion" scheme="https://overrideturing.github.io/tags/diffusion/"/>
     
   </entry>
   
   <entry>
     <title>欢迎来到我的世界！！！Surprise, Yumou!</title>
-    <link href="http://example.com/2024/11/04/hello-world/"/>
-    <id>http://example.com/2024/11/04/hello-world/</id>
+    <link href="https://overrideturing.github.io/2024/11/04/hello-world/"/>
+    <id>https://overrideturing.github.io/2024/11/04/hello-world/</id>
     <published>2024-11-03T16:17:57.145Z</published>
     <updated>2024-11-03T17:32:19.885Z</updated>
     
