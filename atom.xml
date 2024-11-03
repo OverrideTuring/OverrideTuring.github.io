@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Welcome to my blog!</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-11-03T17:41:53.370Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>OverrideTuring</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Diffusion发展脉络</title>
+    <link href="http://example.com/2024/11/04/diffusion%E5%8F%91%E5%B1%95%E8%84%89%E7%BB%9C/"/>
+    <id>http://example.com/2024/11/04/diffusion%E5%8F%91%E5%B1%95%E8%84%89%E7%BB%9C/</id>
+    <published>2024-11-03T17:36:48.000Z</published>
+    <updated>2024-11-03T17:41:53.370Z</updated>
+    
+    <content type="html"><![CDATA[<p>2021年以来，生成式模型扛把子diffusion model红红火火，已成为当代人工智能研究者不得不面对的话题。本人作为初学者，最近学习了一些经典扩散模型如DDPM、DDIM、Classifier Guidance等，以及一些较新的模型如Stable Diffusion 3和Flow Matching等。趁着记忆犹新赶紧记录下来。本文梳理了diffusion model的发展脉络，并展望了未来diffusion model的发展方向。</p><h2 id="开山之作：DDPM-Denoising-Diffusion-Probabilistic-Model"><a href="#开山之作：DDPM-Denoising-Diffusion-Probabilistic-Model" class="headerlink" title="开山之作：DDPM(Denoising Diffusion Probabilistic Model)"></a>开山之作：DDPM(Denoising Diffusion Probabilistic Model)</h2><p>以后再说…</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;2021年以来，生成式模型扛把子diffusion model红红火火，已成为当代人工智能研究者不得不面对的话题。本人作为初学者，最近学习了一些经典扩散模型如DDPM、DDIM、Classifier Guidance等，以及一些较新的模型如Stable Diffusion </summary>
+      
+    
+    
+    
+    
+    <category term="diffusion" scheme="http://example.com/tags/diffusion/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>欢迎来到我的世界！！！Surprise, Yumou!</title>
+    <link href="http://example.com/2024/11/04/hello-world/"/>
+    <id>http://example.com/2024/11/04/hello-world/</id>
+    <published>2024-11-03T16:17:57.145Z</published>
+    <updated>2024-11-03T17:32:19.885Z</updated>
+    
+    <content type="html"><![CDATA[<p>你一定想不到我是如何弄了这么个玩意儿的，这可是面试加分项！全靠下面这个：<a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;你一定想不到我是如何弄了这么个玩意儿的，这可是面试加分项！全靠下面这个：&lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/doc</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

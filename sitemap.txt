@@ -1,0 +1,4 @@
+http://example.com/2024/11/04/diffusion%E5%8F%91%E5%B1%95%E8%84%89%E7%BB%9C/
+http://example.com/2024/11/04/hello-world/
+http://example.com/
+http://example.com/tags/diffusion/
