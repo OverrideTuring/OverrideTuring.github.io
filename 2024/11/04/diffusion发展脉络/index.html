@@ -26,7 +26,7 @@
 <meta property="og:description" content="2021年以来，生成式模型扛把子diffusion model红红火火，已成为当代人工智能研究者不得不面对的话题。本人作为初学者，最近学习了一些经典扩散模型如DDPM、DDIM、Classifier Guidance等，以及一些较新的模型如Stable Diffusion 3和Flow Matching等。趁着记忆犹新赶紧记录下来。本文梳理了diffusion model的发展脉络，并展望了未来d">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-11-03T17:36:48.000Z">
-<meta property="article:modified_time" content="2024-11-03T17:41:53.370Z">
+<meta property="article:modified_time" content="2024-11-03T20:34:13.374Z">
 <meta property="article:author" content="OverrideTuring">
 <meta property="article:tag" content="diffusion">
 <meta name="twitter:card" content="summary">
@@ -332,7 +332,12 @@
     <div class="article-entry marked-body" itemprop="articleBody">
       
         <p>2021年以来，生成式模型扛把子diffusion model红红火火，已成为当代人工智能研究者不得不面对的话题。本人作为初学者，最近学习了一些经典扩散模型如DDPM、DDIM、Classifier Guidance等，以及一些较新的模型如Stable Diffusion 3和Flow Matching等。趁着记忆犹新赶紧记录下来。本文梳理了diffusion model的发展脉络，并展望了未来diffusion model的发展方向。</p>
-<h2 id="开山之作：DDPM-Denoising-Diffusion-Probabilistic-Model"><a href="#开山之作：DDPM-Denoising-Diffusion-Probabilistic-Model" class="headerlink" title="开山之作：DDPM(Denoising Diffusion Probabilistic Model)"></a>开山之作：DDPM(Denoising Diffusion Probabilistic Model)</h2><p>以后再说…</p>
+<h2 id="开山之作：DDPM"><a href="#开山之作：DDPM" class="headerlink" title="开山之作：DDPM"></a>开山之作：DDPM</h2><p>2020年以前，在生成模型(Generative Model)领域占统治地位的一直是GANs(Generative Adversarial Networks)。随后，一种去噪扩散概率模型DDPM (Denoising Diffusion Probabilistic Model)横空出世，凭借较小的参数量就能取得很好的图像生成效果，而且由于是概率模型，生成图像的多样性也能得到保证。因此，从2021年至今，扩散模型的研究就如雨后春笋般涌现。一条大致的发展路线如图1所示。从最开始随机生成图像的DDPM，到最后能根据自然语言prompt生成各种风格图像的Stable Diffusion，发展是显著且迅速的。在接下来的介绍中，会看到这样的成就并非一蹴而就，每一步工作都严格建立在前人的基础之上，最后逐渐累积到今天的成果。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A[DDPM]</span><br><span class="line">B[DDIM]</span><br><span class="line">C[Classifier Guidance]</span><br><span class="line">D[Classifier-free Guidance]</span><br><span class="line">E[Latent Diffusion Model]</span><br><span class="line">F[Dalle2]</span><br><span class="line">G[Stable Diffusion]</span><br><span class="line">H[Flow Matching]</span><br><span class="line">I[Rectified Flow]</span><br><span class="line">A--加速采样过程--&gt;B--分类器指导--&gt;C--隐式条件指导--&gt;D--隐空间推理--&gt;E</span><br><span class="line">E--&gt;F</span><br><span class="line">E--&gt;G</span><br><span class="line">A--不同理解视角--&gt;H--流的改进--&gt;I</span><br></pre></td></tr></table></figure>
+
+<center><p>图1 扩散模型大致发展脉络</p></center>
+
+<p>首先，要从开山之作DDPM说起。它把图像生成建模成去噪过程。</p>
 
       
     </div>
