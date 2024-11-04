@@ -17,16 +17,21 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>归档: 2024/11 | Hexo</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Welcome to my blog!">
-<meta property="og:url" content="https://overrideturing.github.io/archives/2024/11/index.html">
+  <title>实变函数重要问题记录 | Hexo</title>
+  <meta name="description" content="证明：康托尔-伯恩斯坦(Cantor-Bernstein)定理：对于集合A和B，存在单射$f:A\rightarrow B$和$g:B\rightarrow A$，则存在一个双射$h:A\rightarrow B$。（这样两个集合就等势）  证明：一个集合为无限集当且仅当它和自己的一个真子集可建立一一对应关系。  证明：在区间[0,1]内，不存在这样的函数，在有理数点处连续，在无理数点处不连续。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="实变函数重要问题记录">
+<meta property="og:url" content="https://overrideturing.github.io/2024/11/04/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0%E9%87%8D%E8%A6%81%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/index.html">
 <meta property="og:site_name" content="Welcome to my blog!">
+<meta property="og:description" content="证明：康托尔-伯恩斯坦(Cantor-Bernstein)定理：对于集合A和B，存在单射$f:A\rightarrow B$和$g:B\rightarrow A$，则存在一个双射$h:A\rightarrow B$。（这样两个集合就等势）  证明：一个集合为无限集当且仅当它和自己的一个真子集可建立一一对应关系。  证明：在区间[0,1]内，不存在这样的函数，在有理数点处连续，在无理数点处不连续。">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-11-04T06:32:00.000Z">
+<meta property="article:modified_time" content="2024-11-04T06:53:26.623Z">
 <meta property="article:author" content="OverrideTuring">
+<meta property="article:tag" content="mathematic">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://overrideturing.github.io/archives/2024/11/index.html">
+  <link rel="canonical" href="https://overrideturing.github.io/2024/11/04/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0%E9%87%8D%E8%A6%81%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Welcome to my blog!" type="application/atom+xml">
   
@@ -36,6 +41,8 @@
   
 <link rel="stylesheet" href="/css/style.css">
 
+  
+    <link href="//cdn.jsdelivr.net/npm/katex@0.9.0/dist/katex.min.css" rel="stylesheet">
   
   
   
@@ -320,78 +327,192 @@
   
   
 <main class="main" role="main">
-  	<article class="content article article-archives article-type-list" itemscope="">
-	    <header class="article-header">
-	      <h1 itemprop="title">归档: 2024/11</h1>
-	      <p class="text-muted">共 4 篇文章</p>
-	    </header>
-	    <div class="article-body">
-	      
-  
-  
+  <div class="content">
+  <article id="post-实变函数重要问题记录" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
-    
+    <div class="article-header">
       
+        
+  
+    <h1 class="article-title" itemprop="name">
+      实变函数重要问题记录
+    </h1>
+  
+
       
-      <section class="panel panel-default b-no">
-        <div class="panel-heading" role="tab">
-          <h3 class="panel-title">
-            <a data-toggle="collapse" href="#collapse2024" aria-expanded="true">
-              <i class="icon icon-calendar-plus text-active"></i><i class="icon icon-calendar-minus text"></i>
-              2024
-            </a>
-            <!-- <a href="/archives/2024" class="archive-year">2024</a> -->
-          </h3>
-        </div>
-        <div id="collapse2024" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2024">
-        <div class="panel-body">
-          <div class="collection">
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2024/11/04/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0%E9%87%8D%E8%A6%81%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/" class="article-date">
+	  <time datetime="2024-11-04T06:32:00.000Z" itemprop="datePublished">2024-11-04</time>
+	</a>
+</span>
+        
+        
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link-link" href="/tags/mathematic/" rel="tag">mathematic</a>
+  </span>
+
+
+        
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2024/11/04/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0%E9%87%8D%E8%A6%81%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/#comments" class="article-comment-link">评论</a></span>
+        
+      </div>
+    </div>
+    <div class="article-entry marked-body" itemprop="articleBody">
+      
+        <ol>
+<li><p><strong>证明</strong>：康托尔-伯恩斯坦(Cantor-Bernstein)定理：对于集合A和B，存在单射$f:A\rightarrow B$和$g:B\rightarrow A$，则存在一个双射$h:A\rightarrow B$。（这样两个集合就等势）</p>
+</li>
+<li><p><strong>证明</strong>：一个集合为无限集当且仅当它和自己的一个真子集可建立一一对应关系。</p>
+</li>
+<li><p><strong>证明</strong>：在区间[0,1]内，不存在这样的函数，在有理数点处连续，在无理数点处不连续。</p>
+<p><strong>备注</strong>：反过来是成立的，即存在一种函数，在有理数点处不连续，在无理数点处连续，例如黎曼函数</p>
+<script type="math/tex; mode=display">
+f(x)=\left\{\begin{matrix}
+p/q,&x=p/q，p,q都属于正整数，p/q为既约真分数 \\
+0,&x为无理数
+\end{matrix}\right.\\
+x\in [0,1]\\</script><p>实际上有一个更通用性的结论，定义在一个区间上的函数在某个稠密子集上连续，那么就找不到另一个函数，使得它们的不连续点互补。</p>
+</li>
+<li><p><strong>证明</strong>：Carathéodory定理说明了什么样的集合是可测集，它的等价定义是，一个集合E是可测集，那么对于任意$\varepsilon &gt; 0$，存在一个闭集$F\subset E$，使得$m^*(E-F)&lt;\varepsilon$。同样，还有两种闭集的等价定义，参看川大实变函数课程P35。</p>
+</li>
+<li><p><strong>证明</strong>：有两个Lebesgue可测函数$f$和$g$，$f+g$也是勒贝格可测函数。</p>
+</li>
+<li><p><strong>证明</strong>：可测函数三大定理：Egorov定理（几乎一致收敛）、Riesz定理（子列几乎收敛）、Lusin定理（依测度收敛于连续函数）</p>
+<p><strong>重点概念</strong>：</p>
+<ul>
+<li><p>几乎处处收敛：指去掉一个零测集后，数列$\{f_k(x)\}$处处收敛于$f(x)$</p>
+</li>
+<li><p>依测度收敛：数列$\{f_k(x)\}$中不收敛于$f(x)$的点集在极限情况下是零测集</p>
+</li>
+</ul>
+<p>（这两者并不等价，也不存在包含关系，函数序列可能处处不收敛，但依测度收敛，一种情况是，不收敛的点在变少，但在整个区间可能是浮动存在的）</p>
+</li>
+<li><p><strong>证明</strong>：有关可积函数的定理：Lebesgue控制收敛定理、Levi定理（勒贝格单调收敛定理）、Fatou引理、Fubini定理</p>
+</li>
+<li><p><strong>证明</strong>：Lebesgue定理：有界函数黎曼可积的充要条件是几乎处处连续。</p>
+</li>
+<li><p><strong>证明</strong>：积分全连续性：在E上可积，对于任意$\varepsilon&gt;0$，存在$\delta&gt;0$，如果$E’\subset E$，且$m(E’) &lt; \delta$，则$\int_E f(x)dx &lt; \varepsilon$。</p>
+</li>
+<li><p><strong>证明</strong>：全连续函数（不是积分全连续性）是有界变差函数，有界变差函数等价于两个单调递增函数的差。</p>
+</li>
+<li><p><strong>证明</strong>：Lebesgue积分意义下的牛顿-莱布尼茨公式（参看川大实变函数课程P43，网课未给出完整证明）</p>
+</li>
+<li><p><strong>证明</strong>：存在处处连续处处不可导的函数（构造式证明）</p>
+</li>
+<li><p><strong>证明</strong>：rising sun lemma（参考川大实变函数课程P44）</p>
+<script type="math/tex; mode=display">
+设f:R\rightarrow R是连续函数，
+S=\left\{x \in R | \exists y>x, s.t. f(x)<f(y)\right\}，\\
+则集合S是开集，即S=\bigcup_k(a_k,b_k)，\\
+如果(a_k,b_k)是有限的，则f(b_k)-f(a_k)=0</script></li>
+<li><p><strong>证明</strong>：$L^p$空间的三角不等式（参考川大实变函数课程P46，用到Holder不等式）</p>
+<script type="math/tex; mode=display">
+\left[\int_a^b \vert f(x)+g(x)\vert ^p dx \right]^\frac{1}{p} \leq
+\left[\int_a^b \vert f(x)\vert ^p dx\right]^\frac{1}{p} +
+\left[\int_a^b \vert g(x)\vert ^p dx\right]^\frac{1}{p}</script><p><strong>证明如下</strong>：</p>
+<script type="math/tex; mode=display">
+\int_a^b \vert f(x)+g(x)\vert ^p dx = \int_a^b \vert f(x)+g(x)\vert \vert f(x)+g(x)\vert^{p-1} dx\\
+\leq \int_a^b \vert f(x)\vert \vert f(x)+g(x)\vert^{p-1} dx + \int_a^b \vert f(x)+g(x)\vert \vert g(x)\vert^{p-1} dx\\
+\leq \left[\int_a^b \vert f(x)\vert^p dx\right]^\frac{1}{p} \left[\int_a^b \vert f(x)+g(x)\vert^p dx\right]^\frac{1}{q}+\\
+\left[\int_a^b \vert g(x)\vert^p dx\right]^\frac{1}{p} \left[\int_a^b \vert f(x)+g(x)\vert^p dx\right]^\frac{1}{q}(Holder不等式)\\
+=\left\{\left[\int_a^b \vert f(x)\vert^p dx\right]^\frac{1}{p}+\left[\int_a^b \vert g(x)\vert^q dx\right]^\frac{1}{q} \right\}\left[\int_a^b \vert f(x)+g(x)\vert^p dx\right]^\frac{1}{q}\\
+其中p和q满足\frac{1}{p}+\frac{1}{q}=1 (p>1,q>1)\\
+移项即得\left[\int_a^b \vert f(x)+g(x)\vert ^p dx \right]^\frac{1}{p} \leq
+\left[\int_a^b \vert f(x)\vert ^p dx\right]^\frac{1}{p} +
+\left[\int_a^b \vert g(x)\vert ^p dx\right]^\frac{1}{p}</script></li>
+<li><p><strong>证明</strong>：Holder不等式</p>
+<script type="math/tex; mode=display">
+如果\frac{1}{p}+\frac{1}{q}=1 (p,q>0)，则\Vert fg\Vert_1 \leq \Vert f\Vert_p \Vert g\Vert_q \\
+提示：已知Young不等式ab\leq \frac{a^p}{p}+\frac{b^q}{q} (a,b>0)\\</script><p><strong>证明如下</strong>：</p>
+<script type="math/tex; mode=display">
+\int_a^b\frac{\vert f(x)g(x)\vert}{\Vert f\Vert_p \Vert g\Vert_q} dx
+\leq \int_a^b\frac{1}{p}\frac{\vert f(x)\vert^p}{\Vert f\Vert_p^p}+
+\frac{1}{q}\frac{\vert g(x)\vert^q}{\Vert f\Vert_g^g}dx
+=\frac{1}{p}+\frac{1}{q}=1</script></li>
+</ol>
+
+      
+    </div>
+    <div class="article-footer">
+      <blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
     
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="https://overrideturing.github.io/2024/11/04/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0%E9%87%8D%E8%A6%81%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/" title="实变函数重要问题记录" target="_blank" rel="external">https://overrideturing.github.io/2024/11/04/实变函数重要问题记录/</a>
+    </li>
     
-<a href="/2024/11/04/%E6%B3%9B%E5%87%BD%E5%88%86%E6%9E%90%E9%87%8D%E8%A6%81%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/" class="collection-item"   itemprop="url">
-  <time datetime="2024-11-04T06:32:08.000Z" itemprop="datePublished">2024-11-04</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> 泛函分析重要问题记录
-</a>
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+</blockquote>
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/OverrideTuring" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/blue_dragon.jpg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/OverrideTuring" target="_blank"><span class="text-dark">OverrideTuring</span><small class="ml-1x">CS &amp; AI 取经人</small></a></h3>
+        <div>海纳百川，有容乃大。</div>
+      </div>
+    </figure>
+  </div>
+</div>
+
+
+    </div>
+  </article>
+  
+    
+  <section id="comments">
+  	
+      <div id="vcomments"></div>
+    
+  </section>
 
 
   
-    
-    
-    
-<a href="/2024/11/04/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0%E9%87%8D%E8%A6%81%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/" class="collection-item"   itemprop="url">
-  <time datetime="2024-11-04T06:32:00.000Z" itemprop="datePublished">2024-11-04</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> 实变函数重要问题记录
-</a>
+</div>
 
-
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
   
+  <ul class="pager pull-left">
+    
+    <li class="prev">
+      <a href="/2024/11/04/%E6%B3%9B%E5%87%BD%E5%88%86%E6%9E%90%E9%87%8D%E8%A6%81%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95/" title="泛函分析重要问题记录"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+    </li>
     
     
-    
-<a href="/2024/11/04/diffusion%E5%8F%91%E5%B1%95%E8%84%89%E7%BB%9C/" class="collection-item"   itemprop="url">
-  <time datetime="2024-11-03T17:36:48.000Z" itemprop="datePublished">2024-11-04</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> Diffusion发展脉络
-</a>
-
-
-  
+    <li class="next">
+      <a href="/2024/11/04/diffusion%E5%8F%91%E5%B1%95%E8%84%89%E7%BB%9C/" title="Diffusion发展脉络"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
     
     
-    
-<a href="/2024/11/04/hello-world/" class="collection-item"   itemprop="url">
-  <time datetime="2024-11-03T16:17:57.145Z" itemprop="datePublished">2024-11-04</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> 欢迎来到我的世界！！！Surprise, Yumou!
-</a>
-
-
+  </ul>
   
   
-    </div></div></div></section>
+  
+  <div class="bar-right">
+    
+    <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter" data-mobile-sites="weibo,qq,qzone"></div>
+    
+  </div>
+  </div>
+</nav>
   
 
-	    </div>
-  	</article>
-  	 	
+
 </main>
 
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
@@ -452,6 +573,37 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
+
+   
+
+
+
+
+   
+    
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  <script type="text/javascript">
+  var GUEST = ['nick', 'mail', 'link'];
+  var meta = 'nick,mail,link';
+  meta = meta.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#vcomments',
+    verify: false,
+    notify: false,
+    appId: '',
+    appKey: '',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: meta,
+    pageSize: '10' || 10,
+    visitor: false
+  });
+  </script>
+
+     
 
 
 
