@@ -17,7 +17,7 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>实变函数重要问题记录 | Hexo</title>
+  <title>实变函数重要问题记录 | OverrideTuring的个人博客</title>
   <meta name="description" content="证明：康托尔-伯恩斯坦(Cantor-Bernstein)定理：对于集合A和B，存在单射$f:A\rightarrow B$和$g:B\rightarrow A$，则存在一个双射$h:A\rightarrow B$。（这样两个集合就等势）  证明：一个集合为无限集当且仅当它和自己的一个真子集可建立一一对应关系。  证明：在区间[0,1]内，不存在这样的函数，在有理数点处连续，在无理数点处不连续。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="实变函数重要问题记录">
@@ -634,5 +634,20 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
       });
 </script>   <!-- 修改 结束位置 --> 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 </html>

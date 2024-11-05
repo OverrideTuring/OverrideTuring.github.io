@@ -17,7 +17,7 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>Diffusion发展脉络 | Hexo</title>
+  <title>Diffusion发展脉络 | OverrideTuring的个人博客</title>
   <meta name="description" content="2021年以来，生成式模型扛把子diffusion model红红火火，已成为当代人工智能研究者不得不面对的话题。本人作为初学者，最近学习了一些经典扩散模型如DDPM、DDIM、Classifier Guidance等，以及一些较新的模型如Stable Diffusion 3和Flow Matching等。趁着记忆犹新赶紧记录下来。本文梳理了diffusion model的发展脉络，并展望了未来d">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Diffusion发展脉络">
@@ -835,5 +835,20 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
       });
 </script>   <!-- 修改 结束位置 --> 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 </html>

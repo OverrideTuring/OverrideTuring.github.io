@@ -17,7 +17,7 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>欢迎来到我的世界！！！Surprise, Yumou! | Hexo</title>
+  <title>欢迎来到我的世界！！！Surprise, Yumou! | OverrideTuring的个人博客</title>
   <meta name="description" content="你一定想不到我是如何弄了这么个玩意儿的，这可是面试加分项！全靠下面这个：Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you ca">
 <meta property="og:type" content="article">
 <meta property="og:title" content="欢迎来到我的世界！！！Surprise, Yumou!">
@@ -555,5 +555,20 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
       });
 </script>   <!-- 修改 结束位置 --> 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 </html>

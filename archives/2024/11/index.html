@@ -17,7 +17,7 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>归档: 2024/11 | Hexo</title>
+  <title>归档: 2024/11 | OverrideTuring的个人博客</title>
   <meta property="og:type" content="website">
 <meta property="og:title" content="Welcome to my blog!">
 <meta property="og:url" content="https://overrideturing.github.io/archives/2024/11/index.html">
@@ -477,5 +477,20 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
       });
 </script>   <!-- 修改 结束位置 --> 
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 </html>
