@@ -6,7 +6,7 @@
   <link href="https://overrideturing.github.io/atom.xml" rel="self"/>
   
   <link href="https://overrideturing.github.io/"/>
-  <updated>2024-11-04T06:55:00.393Z</updated>
+  <updated>2025-03-19T12:56:55.705Z</updated>
   <id>https://overrideturing.github.io/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mario Platformer Development (UE5)</title>
+    <link href="https://overrideturing.github.io/2025/03/19/Mario-Platformer-Development-UE5/"/>
+    <id>https://overrideturing.github.io/2025/03/19/Mario-Platformer-Development-UE5/</id>
+    <published>2025-03-19T12:55:53.000Z</published>
+    <updated>2025-03-19T12:56:55.705Z</updated>
+    
+    
+    
+    
+    
+    <category term="game development" scheme="https://overrideturing.github.io/tags/game-development/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Plant VS Zombies Development (Unity)</title>
+    <link href="https://overrideturing.github.io/2025/03/19/Plant-VS-Zombies-Development-Unity/"/>
+    <id>https://overrideturing.github.io/2025/03/19/Plant-VS-Zombies-Development-Unity/</id>
+    <published>2025-03-19T12:55:27.000Z</published>
+    <updated>2025-03-19T13:13:47.558Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="\videos\games\MyPVZ.mp4"><img src="\images\blogs\games\MyPVZ.00_00_00_00.Still001.png" alt="GitHub视频"></a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;&#92;videos&#92;games&#92;MyPVZ.mp4&quot;&gt;&lt;img src=&quot;&#92;images&#92;blogs&#92;games&#92;MyPVZ.00_00_00_00.Still001.png&quot; alt=&quot;GitHub视频&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="game development" scheme="https://overrideturing.github.io/tags/game-development/"/>
+    
+  </entry>
   
   <entry>
     <title>泛函分析重要问题记录</title>
@@ -85,18 +123,18 @@
   </entry>
   
   <entry>
-    <title>欢迎来到我的世界！！！Surprise, Yumou!</title>
+    <title>This is a Hello World message!</title>
     <link href="https://overrideturing.github.io/2024/11/04/hello-world/"/>
     <id>https://overrideturing.github.io/2024/11/04/hello-world/</id>
     <published>2024-11-03T16:17:57.145Z</published>
-    <updated>2024-11-03T17:32:19.885Z</updated>
+    <updated>2025-03-19T12:51:50.368Z</updated>
     
-    <content type="html"><![CDATA[<p>你一定想不到我是如何弄了这么个玩意儿的，这可是面试加分项！全靠下面这个：<a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p><a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;你一定想不到我是如何弄了这么个玩意儿的，这可是面试加分项！全靠下面这个：&lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/doc</summary>
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info.</summary>
       
     
     
