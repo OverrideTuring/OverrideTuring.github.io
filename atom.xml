@@ -6,7 +6,7 @@
   <link href="https://overrideturing.github.io/atom.xml" rel="self"/>
   
   <link href="https://overrideturing.github.io/"/>
-  <updated>2025-03-19T12:56:55.705Z</updated>
+  <updated>2025-03-19T13:41:27.908Z</updated>
   <id>https://overrideturing.github.io/</id>
   
   <author>
@@ -21,8 +21,18 @@
     <link href="https://overrideturing.github.io/2025/03/19/Mario-Platformer-Development-UE5/"/>
     <id>https://overrideturing.github.io/2025/03/19/Mario-Platformer-Development-UE5/</id>
     <published>2025-03-19T12:55:53.000Z</published>
-    <updated>2025-03-19T12:56:55.705Z</updated>
+    <updated>2025-03-19T13:41:27.908Z</updated>
     
+    <content type="html"><![CDATA[<video controls autoplay>    <source src="\videos\games\MyPVZ.mp4" type="video/mp4">    Your browser does not support the video tag.</video>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;video controls autoplay&gt;
+    &lt;source src=&quot;&#92;videos&#92;games&#92;MyPVZ.mp4&quot; type=&quot;video/mp4&quot;&gt;
+    Your browser does not support the video tag.
+&lt;/vid</summary>
+      
     
     
     
@@ -36,15 +46,17 @@
     <link href="https://overrideturing.github.io/2025/03/19/Plant-VS-Zombies-Development-Unity/"/>
     <id>https://overrideturing.github.io/2025/03/19/Plant-VS-Zombies-Development-Unity/</id>
     <published>2025-03-19T12:55:27.000Z</published>
-    <updated>2025-03-19T13:13:47.558Z</updated>
+    <updated>2025-03-19T13:41:12.876Z</updated>
     
-    <content type="html"><![CDATA[<p><a href="\videos\games\MyPVZ.mp4"><img src="\images\blogs\games\MyPVZ.00_00_00_00.Still001.png" alt="GitHub视频"></a></p>]]></content>
+    <content type="html"><![CDATA[<video controls autoplay>    <source src="\videos\games\MyPVZ.mp4" type="video/mp4">    Your browser does not support the video tag.</video>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;&#92;videos&#92;games&#92;MyPVZ.mp4&quot;&gt;&lt;img src=&quot;&#92;images&#92;blogs&#92;games&#92;MyPVZ.00_00_00_00.Still001.png&quot; alt=&quot;GitHub视频&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;video controls autoplay&gt;
+    &lt;source src=&quot;&#92;videos&#92;games&#92;MyPVZ.mp4&quot; type=&quot;video/mp4&quot;&gt;
+    Your browser does not support the video tag.
+&lt;/vid</summary>
       
     
     
